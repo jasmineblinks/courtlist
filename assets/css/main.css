@@ -2013,8 +2013,9 @@ ol {
 
     margin-top: 40px;
   }
-  .hero-area .hero-image img {
-    width: 100%;
+ .hero-image img {
+    width: 60%;
+   
   }
 }
 
