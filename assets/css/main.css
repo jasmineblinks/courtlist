@@ -44,8 +44,9 @@ p {
 
 #scrolling-table th,
 #scrolling-table td {
-  border: 1px solid black; /* Add border to table cells */
+  border: 1px solid #04063e; /* Add border to table cells */
   padding: 8px; /* Add padding to table cells */
+  color: #04063e;
 }
 
 /* end of table scroll */
