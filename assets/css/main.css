@@ -30,6 +30,26 @@ p {
   padding: 0;
 }
 
+/* Table scroll */
+
+.table-container {
+  height: 200px; /* Set the height of the container */
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+#scrolling-table {
+  width: 100%; /* Make the table fill the container width */
+  border-collapse: collapse; /* Merge table borders */
+}
+
+#scrolling-table th,
+#scrolling-table td {
+  border: 1px solid black; /* Add border to table cells */
+  padding: 8px; /* Add padding to table cells */
+}
+
+/* end of table scroll */
+
 .navbar-toggler:focus,
 a:focus,
 input:focus,
@@ -2606,7 +2626,7 @@ ol {
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #081828;
+  background-color: #04063e;
   position: relative;
 }
 

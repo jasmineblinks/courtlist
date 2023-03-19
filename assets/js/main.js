@@ -41,6 +41,26 @@ Author: GrayGrids
         }
     };
 
+// table scroll
+// Optional: Adjust the height of the container based on the number of rows
+function scrollTable() {
+    const table = document.getElementById("scrolling-table");
+    const lastRow = table.rows[table.rows.length - 1];
+    const lastRowTop = lastRow.offsetTop;
+    const container = document.querySelector(".table-container");
+    const containerHeight = container.offsetHeight;
+    const scrollTop = container.scrollTop;
+  
+    if (scrollTop + containerHeight >= lastRowTop) {
+      container.scrollTop = 0;
+    } else {
+      container.scrollTop += 1;
+    }
+  }
+  
+  setInterval(scrollTable, 50); // Call the scrollTable function every 50 milliseconds
+  
+// end of table scroll
 
     
     // section menu active
