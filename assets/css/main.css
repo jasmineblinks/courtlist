@@ -1979,13 +1979,17 @@ ol {
 .navbar-nav .nav-item .sub-menu > li:first-child a {
   border: none;
 }
-
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
 .add-list-button {
   display: inline-block;
   margin-left: 10px;
+  width: 200px;
 }
 
-.add-list-button .btn i {
+ .btn i {
   font-size: 14px;
   display: inline-block;
   margin-right: 5px;
